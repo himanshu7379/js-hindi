@@ -18,6 +18,8 @@ let ismale = true;
 // Symbol unique
 
 // object 
+
+
 console.log(typeof null);   // object
 console.log(typeof "himanshu")   //string
 console.log(typeof age);     //number
