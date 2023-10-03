@@ -18,3 +18,7 @@
 
 // ===
 console.log("56" < 64);
+// Create an object:
+const car = {type:"Fiat", model:"500", color:"white"};
+// Ask for car name:
+document.getElementById("demo").innerHTML = car?.name;
