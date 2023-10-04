@@ -13,7 +13,7 @@ let ismale = true;
 // number = 2 to 53;
 // BigInt for big number
 // String
-// Boolean
+// Boolea
 // null  standalone value
 // undefined
 // Symbol unique
