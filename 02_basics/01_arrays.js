@@ -32,22 +32,22 @@ A shallow copy of an object is a copy whose properties share the same references
 
 //  ---------------------------------------    ARRAY  MATHODS  ------------------------------------------------------------------------------
 
-// myArr.push(6)
-// myArr2.push(5)
-// console.log(myArr2);
-// console.log(myArr);
+myArr.push(6)
+myArr2.push(5)
+console.log(myArr2);
+console.log(myArr);
 
-// myArr2.unshift(8)
+myArr2.unshift(8)
 
-// console.log(myArr2);
-// console.log(myArr2.includes(9));
-// console.log(myArr2.indexOf(8));
-// console.log(myArr2);
+console.log(myArr2);
+console.log(myArr2.includes(9));
+console.log(myArr2.indexOf(8));
+console.log(myArr2);
 
-// const newArray = myArr2.join()
-// console.log(myArr2);
-// console.log(newArray);
-// console.log(typeof newArray);
+const newArray = myArr2.join()
+console.log(myArr2);
+console.log(newArray);
+console.log(typeof newArray);
 
 //    slice, splice
 
@@ -55,3 +55,58 @@ console.log("A", myArr2);
 const myn1 = myArr2.slice(1,3)
 console.log(myn1);
 console.log("B", myArr2);
+
+// The splice() method of Array instances changes the contents of an array by removing or
+//  replacing existing elements and/or adding new elements in place.
+
+// *********************************************************  DAY2  ****************************************************************
+const marvelHeroes = ["superman", "ironman" , "thor", "batman"]
+const city = ["lucknow", "pratapgarh" , "delhi" , "prayagraj"]
+
+marvelHeroes.push(city)                   // push methods
+console.log(marvelHeroes[4][1]);
+
+const heroCity = marvelHeroes.concat(city) // concat method
+console.log(heroCity);
+
+const allHero = [...marvelHeroes,...city]  // spread method
+console.log(allHero);
+
+
+
+
+//Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+const anotherArray = [1,2,3,4,[5,6,7,[8,9,[10,11,12]]]]
+const real_anotherArray = anotherArray.flat(Infinity) 
+console.log(real_anotherArray);  
+
+
+// The flat() method of Array instances creates a new array with all sub-array 
+// elements concatenated into it recursively up to the specified depth. 
+
+
+
+
+
+console.log(Array.isArray("himanshu"))
+console.log(Array.from("himanshu"));
+console.log(Array.from({name:"HIMANSHU"}));        //intersting
+
+// The Array.from() static method creates a new, shallow-copied Array instance from an iterable or
+
+
+
+let score1  = 100     //convert into multiple variable into array
+let score2  = 200
+let score3  = 300
+let score4  = 400
+let score5  = 500
+
+console.log(Array.of(score1, score2, score3, score4, score5))
+
+// The Array.of() static method creates a new Array instance from a variable number of arguments, 
+// regardless of number or type of the arguments.
+
+
+

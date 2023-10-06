@@ -17,9 +17,9 @@ console.log(typeof mydate);   // object
 // console.log(myCreatesDate.toLocaleString());
 
 let myTimeStamp = Date.now()
-// console.log(myTimeStamp);
-// console.log(myCreatesDate.getTime());
-// console.log(Date.now()/1000)
+console.log(myTimeStamp);
+console.log(myCreatesDate.getTime());
+console.log(Date.now()/1000)
 
 
 let newDate = new Date()
