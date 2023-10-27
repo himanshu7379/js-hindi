@@ -5,7 +5,7 @@
  //object literals
 
 
- //   Object.create      // create object by constructor
+ Object.create      // create object by constructor
 
  const mySymbol = Symbol("key1")
 
