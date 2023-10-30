@@ -23,7 +23,7 @@ A shallow copy of an object is a copy whose properties share the same references
    */
 
 
-  const myArr = [0,1,5,6,9,7]
+  const myArr = [0,1,5,6,9,7]   // typeOf myArr   = object
   const myHeroes = ["shaktiman", "guddu", "lallan" ]
   console.log(myHeroes[1]);
 
