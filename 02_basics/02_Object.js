@@ -50,6 +50,74 @@
  console.log(jusre.greeting());
  console.log(jusre.greetingTwo());
 
+ //thread/twitter Post
+// create an object literal for the properties of thread/twitter post which includea
+
+const post = {
+   usreName: "himanshu_9454",
+   content: "this is my #firstpost",
+   reposts : 5,
+   likes: 150,
+   tags :["@aman", "@shradha", "@asifkhan"]
+   
+}
+// console.log(post);
+
+
+// add and update object by using .operator
+const student = {
+   name: "himanshu",
+   age : 23,
+   city: "pratapgarh",
+   marks: 80
+}
+console.log(student);
+student.city = "lucknow";
+student.gender = "male"
+student.marks = 85
+console.log(student);
+
+delete student.age;
+console.log(student);
+
+// Nested object
+
+// const classInfo = {
+//    himanshu:{
+//       city: "pratapgarh",
+//       grade: "B+"
+//    },
+//    shudhanshu:{city: "allahbad",
+//    grade: "A+"},
+//    ankit:{city: "lucknow",
+//    grade: "A+"},
+//}
+// console.log(classInfo.ankit.city);
+
+// Array of object
+
+const classInfo = [
+   { name: "himanshu",
+      city: "pratapgarh",
+      grade: "B+"
+   },
+   { name: "shudhanshu",
+      city: "allahabad",
+      grade: "O+"
+   },
+   { name: "ankit",
+      city: "varanasi",
+      grade: "B+"
+   },
+]
+console.log(classInfo[0].grade);
+
+
+// maths object 
+
+math.PI
+
+
 
  
 
