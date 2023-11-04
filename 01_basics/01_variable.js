@@ -11,7 +11,7 @@ accountcity = "pratapgarh"
 accountemail = "shukla@gmail.com"
 accountpassword = "9044"
 accountcity = "lucknow"
-console.table({accountemail, accountid, accountcity, accountpassword});
+console.table({accountemail, accountid, accountCity, accountpassword});
 
 
 // pre not to use var because of issue in block scope and functional issues
