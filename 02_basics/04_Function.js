@@ -173,5 +173,21 @@ const secondcalulator = {
   div(a,b){
     return a/b;
   }
-  
 }
+
+
+// ********************************************  Immediately Invoked function Expressions (IIFE) *****************************************
+
+// global scope se pollution(declared variable) se problem jo bhi declarartion hai usko hattane ke liye (IIFE)
+
+
+(function chai() {
+  console.log(`DB CONNECTED`)
+})()
+console.log(chai());
+
+((name) => {
+  console.log(`db connected two,${name}`);
+})("himanshu")
+
+
