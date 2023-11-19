@@ -58,6 +58,7 @@ para1.classList.add('red');
  div.classList.add("box");
 
  document.querySelector("body").prepend(div);
+cl
 
 
 //  ------------------------------------------------- EventListner ---------------------------------------------------------------------------
@@ -66,14 +67,46 @@ let btns = document.querySelector("button");
 
 // btns.addEventListener("click",Hello )
 // btns.addEventListener("click",sayName )
-btns.addEventListener("dblclick",function() {
-    console.log("you click double clicked me");
-} );
+// btns.addEventListener("dblclick",function() {
+//     console.log("you click double clicked me");
+// } );
 
-function Hello() {
-    alert("hello");
-}
+// function Hello() {
+//     alert("hello");
+// }
 
-function sayName() {
-    alert("hie My name is himanshu shukla");
-}
+// function sayName() {
+//     alert("hie My name is himanshu shukla");
+// }
+
+
+// btns.addEventListener("click", function() {
+//     console.log(this);
+// })
+
+let inp = document.querySelector("input");
+
+// inp.addEventListener("keydown", function() {
+//     console.log("key was pressed");
+// });
+
+// inp.addEventListener("keyup", function(event) {
+//     console.log("key = ",event.key);
+//     console.log("code = ",event.code);
+//     console.log("key was released");
+// });
+let form = document.querySelector("form");
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    
+
+    let inp = document.querySelector("input")
+    console.dir(inp.value);
+})
+
+
+
+
+
+
+// ----------------------------------------------- event form data ---------------------------------------------------------------------------------
