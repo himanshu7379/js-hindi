@@ -17,4 +17,7 @@ console.table({accountemail, accountid, accountCity, accountpassword});
 // pre not to use var because of issue in block scope and functional issues
 
 
-
+// note :-
+// While let and const are block-scoped, var declarations are either globally scoped or function-scoped.
+// Let variables can be updated but not re-declared, const variables cannot be updated or re-declared,
+//  and var variables may both be updated and re-declared inside their scope.
